@@ -91,12 +91,12 @@ int main() {
             gX--; // ruch w górę zmniejszamy numer wiersza esli nie wejdzie w sciane
             limitRuchow--; // kazdy ruch zmniejsza o 1
         }
-        else if ((ruch == 's' || ruch == 'S') && gX < 😎 {
+        else if ((ruch == 's' || ruch == 'S') && gX < 20 {
             gX++; // ruch w dół: zwiększamy numer wiersza
             limitRuchow--; // kazdy ruch zmniejsza limit 1
         }
         else if ((ruch == 'a' || ruch == 'A') && gY > 1) {
-            gY--; // ruch w lewo: zmniejszamy numer kolumny (jeśli nie uderzymy w lewą ścianę).
+            gY--; // ruch w lewo: zmniejszamy numer kolumny (jeśli nie uderzymy w lewą ścianę)
             limitRuchow--; // Każdy ruch zmniejsza limit o 1.
         }
         else if ((ruch == 'd' || ruch == 'D') && gY < 18) {
